@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #2d2d2d;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+}
+.wrapper {
+    width: 400px;
+    height: 500px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background: radial-gradient(white,rgb(255, 211, 234));
+    margin: auto;
+}
+.passwordWrapper {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    width: 65%;
+    cursor: pointer;
+}
+.password {
+    width: fit-content;
+    height: fit-content;
+    margin:auto;
+}
+.discreptionText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text span {
+    color: rgb(180, 54, 54);
+}
+.passwordRange {
+width: 100%;
+}
+.passwordRangeWrapper .text {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #2d2d2d;
+}
+.rangeWrapper {
+    display: flex;
+}
+.verticalBars {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: -3px;
+    font-size: 6px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.rangeNumbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2px;
+}
+.rangeNumbers span {
+    display: block;
+    width: fit-content;
+    margin-left: 5px;
+    position: relative;
+}
+
+.rangeNumbers span:nth-child(2) {
+    left: 5px;
+}
+.rangeNumbers span:nth-child(3) {
+    left: 10.5px;
+}
+.rangeNumbers span:nth-child(4) {
+    left: 11.3px;
+}
+.rangeNumbers span:nth-child(5) {
+    left: 9px;
+}
+.rangeNumbers span:nth-child(6) {
+    left: 6px;
+}
+.rangeNumbers span:nth-child(7) {
+    left: 3.7px;
+}
+.rangeNumbers span:nth-child(8) {
+    left: 1px;
+}
+.rangeNumbers span:nth-child(9) {
+    left: -1.5px;
+}
+.options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.options span {
+    font-weight: 500;
+    font-size: 15px;
+}
+.optionItemWrapper {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.optionItemWrapper input {
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    z-index: 100;
+}
+.optionItemWrapper label {
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: -19px;
+    z-index: 0;
+}
+.optionItemWrapper input:checked + label{
+    background-color: #ff1491c2;
+}
+.checkboxText {
+    margin-left: 8px;
+    position: relative;
+    top: -2px;
+}
+.generateButton {
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: radial-gradient( gold, deeppink)
+}
+

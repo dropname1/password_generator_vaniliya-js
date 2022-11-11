@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Old version</title>
+</head>
+<body>
+    <div class="wrapper">
+        <button class="generateButton">generate</button>
+        <div class="discreptionText">
+            Select your options and click the <span>'generate'</span> button. Click on the block with the password to copy
+        </div>
+        <div class="passwordRangeWrapper">
+            <div class="text">Password Length</div>
+            <div class="rangeWrapper">
+                <input class='passwordRange' 
+                type="range" 
+                max="20" 
+                min="4" 
+                step="1" 
+                value="8">
+            </div>
+            <div class="verticalBars">
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+                <span>| </span>
+            </div>
+            <div class="rangeNumbers">
+                <span>4</span>
+                <span>6</span>
+                <span>8</span>
+                <span>10</span>
+                <span>12</span>
+                <span>14</span>
+                <span>16</span>
+                <span>18</span>
+                <span>20</span>
+            </div>
+        </div>
+        <div class="options">
+            <div class="optionItemWrapper">
+                <input type="checkbox" class="capital" name="cpital">
+                <label for="capital"></label>
+                <span class="checkboxText">capital letters</span>
+            </div>
+            <div class="optionItemWrapper">
+                <input type="checkbox" class="small" name="small">
+                <label for="small"></label>
+                <span class="checkboxText">small letters</span>
+            </div>
+            <div class="optionItemWrapper">
+                <input type="checkbox" class="simbol" name="simbol">
+                <label for="simbol"></label>
+                <span class="checkboxText">symbols</span>
+            </div>
+            <div class="optionItemWrapper">
+                <input type="checkbox" class="number" name="number">
+                <label for="number"></label>
+                <span class="checkboxText">numbers</span>
+            </div>
+        </div>
+        <div class="passwordWrapper">
+            <div class="password">generated password</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
